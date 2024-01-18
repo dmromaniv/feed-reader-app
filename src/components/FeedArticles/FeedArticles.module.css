@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+
+  list-style-type: circle;
+
+  width: 30vw;
+}
+
+.item {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px 10px;
+  border-bottom: 1px solid rgb(166, 137, 233);
+
+  text-transform: capitalize;
+
+  cursor: pointer;
+}
+
+.link {
+  width: 100%;
+  text-align: left;
+}
+
+.date {
+  position: absolute;
+  top: 2%;
+  right: 2px;
+
+  font-size: 8px;
+  color: #878dff;
+
+  padding: 5px 10px;
+}
